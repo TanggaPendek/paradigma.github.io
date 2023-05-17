@@ -1,0 +1,2 @@
+# paradigma.github.io
+testHosting
