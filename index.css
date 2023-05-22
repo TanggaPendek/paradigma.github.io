@@ -47,9 +47,8 @@
 }
 
 .mvoIcon {
-    width: 50px;
+    width: 60px;
     height: 50px;
-    background-color: rgb(23, 23, 23);
 }
 
 
@@ -104,27 +103,32 @@
 
 .skmCard {
     grid-template-areas: 
-    "card1 card2 card3 card4"
-    "card5 card6 card7 card8";
+    "skmCard1 skmCard2 skmCard3 skmCard4"
+    "skmCard5 skmCard6 skmCard7 skmCard8";
     padding-inline: 5rem;
     gap: 3rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .skmCard div {
     width: 15rem;
     height: 7.5rem;
     background-color: rgb(26, 26, 26);
-    justify-self: center;
-    align-self: center;
+    
 }
 
-.skmButton {
+.moreButton {
     width: 15rem;
     height: 4rem;
     background-color: #2947a9;
     border-radius: 2rem;
     margin-block: 5rem;
     margin-inline: auto;
+}
+
+.skmCard img {
+    width: 100%;
 }
 
 .sijil {
@@ -142,4 +146,31 @@
 }
 .sijilImg img{
     width: 35rem;
+}
+
+.tempdiv {
+    background-color: rgba(17, 17, 17, 0.418);
+    height: 15rem;
+}
+
+.diploma h2 {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.diplomaCard {
+    grid-template-areas: 
+    "diplomaCard1 diplomaCard2 diplomaCard3"
+    "diplomaCard4 diplomaCard5 diplomaCard6";
+    padding-inline: 5rem;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.diplomaCard img {
+    background-color: rgb(164, 0, 0);
+    width: 350px;
+    height: 300px;
 }
