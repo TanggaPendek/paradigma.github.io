@@ -148,12 +148,10 @@
 
 .sijilImg {
     border: 1px goldenrod solid;
-    background-color: goldenrod;
     grid-area: img;
 }
 .sijilImg img{
     width: 35rem;
-    mix-blend-mode: lighten;
 }
 
 .tempdiv {
