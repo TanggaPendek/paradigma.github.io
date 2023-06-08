@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+    margin: auto;
+    font-family: system-ui;
+    color: #212121;
+}
+
+a {
+    color: rgb(67, 67, 67);
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.pad10 {
+    padding: 1.25rem;
+}
+
+.banner {
+    background-color: rgb(40, 178, 182);
+    height: 80vh;
+}
+
+.bodyItem {
+    margin-inline: auto;
+    background-color: rgb(253, 253, 253);
+    width: 90%;
+}
+
+.textCenter {
+    text-align: center;
+    padding-inline: 10%;
+}

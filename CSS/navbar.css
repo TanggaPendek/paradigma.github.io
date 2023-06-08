@@ -1,0 +1,22 @@
+
+
+.navbar {
+    height: 6rem;
+    background-color: rgb(236, 236, 236);
+}
+
+.navbar img {
+    height: 5rem;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+
+.navbar .links {
+    position: absolute;
+    right: 5rem;
+    top: 2.5rem;
+}
+
+.links a {
+    padding-inline: 2vw;
+}

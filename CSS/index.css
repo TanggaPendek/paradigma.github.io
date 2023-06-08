@@ -1,0 +1,184 @@
+.MVO {
+    grid-template-areas:"misi visi objektif";
+    padding-inline: 5rem;
+    color: #858EAD;
+}
+
+.MVO a {
+    color: rgb(58, 58, 218);
+    text-decoration: underline;
+}
+
+.misi {
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 170px;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px;
+}
+.visi {
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 170px;
+    border: 3px solid rgba(0, 0, 0, 0.25);    
+    border-radius: 5px;
+    padding: 15px;
+}
+.objektif {
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 170px;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.MVOtitle {
+    padding-block: 3rem;
+}
+
+.mvoIcon {
+    width: 60px;
+    height: 50px;
+}
+
+
+
+.MVO .mvopad {
+    padding-block: 10px;
+    color: #212121;
+}
+
+.tentangImg{
+    background-color: rgb(98, 98, 98);
+    width: 600px;
+    height: 600px;
+    margin: 10rem;
+    margin-inline: 20rem;
+}
+
+.tentangText{
+    position: absolute;
+    background-color: #2947A9;
+    color: aliceblue;
+    width: 350px;
+    height: 450px;
+    margin-inline: 50rem;
+    margin-top: -45rem;
+    padding: 2rem;
+}
+
+.tentangText h3{
+    font-weight: 400;
+}
+
+.tentangText a div{
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skm {
+    background-color: #f6f8f7;
+}
+
+.skm h2 {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skmCard {
+    grid-template-areas: 
+    "skmCard1 skmCard2 skmCard3 skmCard4"
+    "skmCard5 skmCard6 skmCard7 skmCard8";
+    padding-inline: 5rem;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.skmCard div {
+    width: 15rem;
+    height: 7.5rem;
+    background-color: rgb(26, 26, 26);
+    
+}
+
+.moreButton {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-inline: auto;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-block: 5rem;
+}
+
+.moreButton img {
+    object-fit: contain;
+    width: 15rem;
+    height: 4rem;
+}
+
+
+.skmCard img {
+    width: 100%;
+}
+
+.sijil {
+    grid-template-areas: "text text img";
+    margin-inline: 2rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+.sijilText {
+    grid-area: text;
+}
+
+.sijilImg {
+    border: 1px goldenrod solid;
+    background-color: goldenrod;
+    grid-area: img;
+}
+.sijilImg img{
+    width: 35rem;
+    mix-blend-mode: lighten;
+}
+
+.tempdiv {
+    background-color: rgba(17, 17, 17, 0.418);
+    height: 15rem;
+}
+
+.diploma h2 {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.diplomaCard {
+    grid-template-areas: 
+    "diplomaCard1 diplomaCard2 diplomaCard3"
+    "diplomaCard4 diplomaCard5 diplomaCard6";
+    padding-inline: 5rem;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.diplomaCard img {
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
+}
