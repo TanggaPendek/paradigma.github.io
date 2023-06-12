@@ -176,7 +176,28 @@
 }
 
 .diplomaCard img {
+    transform: scale(1);
     object-fit: cover;
     width: 350px;
     height: 300px;
+    transition: all 1s ease;
+}
+
+.dpCardText {
+    height: 70px;
+    width: 350px;
+    margin-top: -70px;
+    background-color: #2947A9;
+    color: #f6f8f7;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.overlay {
+    background-color: #0000003d;
+    width: 350px;
+    height: 300px;
+    margin-top: -303px;
+    transition: all 500ms;
 }

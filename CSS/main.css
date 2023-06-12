@@ -34,3 +34,17 @@ a {
     text-align: center;
     padding-inline: 10%;
 }
+
+.posa {
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.ease {
+    transition: all 0.5s ease;
+}
