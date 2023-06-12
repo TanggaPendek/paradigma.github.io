@@ -147,7 +147,6 @@
 }
 
 .sijilImg {
-    border: 1px goldenrod solid;
     grid-area: img;
 }
 .sijilImg img{
