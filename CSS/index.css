@@ -151,6 +151,7 @@
 }
 .sijilImg img{
     width: 35rem;
+    border: goldenrod 1px solid;
 }
 
 .tempdiv {
@@ -168,7 +169,7 @@
     grid-template-areas: 
     "diplomaCard1 diplomaCard2 diplomaCard3"
     "diplomaCard4 diplomaCard5 diplomaCard6";
-    padding-inline: 5rem;
+    padding-inline: auto;
     gap: 3rem;
     justify-items: center;
     align-items: center;
@@ -177,14 +178,14 @@
 .diplomaCard img {
     transform: scale(1);
     object-fit: cover;
-    width: 350px;
-    height: 300px;
+    width: 25vw;
+    height: 20vw;
     transition: all 1s ease;
 }
 
 .dpCardText {
-    height: 70px;
-    width: 350px;
+    height: 5vw;
+    width: 25vw;
     margin-top: -70px;
     background-color: #2947A9;
     color: #f6f8f7;
@@ -195,8 +196,8 @@
 
 .overlay {
     background-color: #0000003d;
-    width: 350px;
-    height: 300px;
-    margin-top: -303px;
+    width: 25vw;
+    height: 20vw;
+    margin-top: -20vw;
     transition: all 500ms;
 }
