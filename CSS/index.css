@@ -87,7 +87,7 @@
 }
 
 .skm {
-    background-color: #f6f8f7;
+    background-color: rgb(240, 242, 241);
 }
 
 .skm h2 {
@@ -150,14 +150,42 @@
     grid-area: img;
 }
 .sijilImg img{
+    margin-top: 1rem;
     width: 35rem;
     border: goldenrod 1px solid;
 }
 
-.tempdiv {
+.officePicBanner {
     background-color: rgba(17, 17, 17, 0.418);
     height: 15rem;
+    background-image: url(../Asset/officePicBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-columns: 5% 70% 25%;
+    grid-template-rows: repeat(3,1fr);
+    color: #f6f8f7;
+    align-items: center;
 }
+
+.textOfficeBanner {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.buttonOfficeBanner {
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+.buttonOnBanner {
+    width: 10rem;
+    height: 4rem;
+    border: 4px white solid;
+    color: #f6f8f7;
+    text-align: center;
+    justify-items: center;
+}
+
 
 .diploma h2 {
     text-align: center;
@@ -188,7 +216,7 @@
     width: 25vw;
     margin-top: -70px;
     background-color: #2947A9;
-    color: #f6f8f7;
+    color: rgb(246, 248, 247);
     padding: 15px;
     box-sizing: border-box;
     transition: all .5s;
