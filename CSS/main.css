@@ -20,8 +20,11 @@ a {
 }
 
 .banner {
-    background-color: rgb(40, 178, 182);
-    height: 80vh;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
 }
 
 .bodyItem {

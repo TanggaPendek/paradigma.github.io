@@ -1,5 +1,12 @@
 .programmeTitle {
     text-align: center;
-    background-color: rgb(144, 46, 46);
 }
 
+table {
+    width: 100%;
+}
+
+table,th,td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
