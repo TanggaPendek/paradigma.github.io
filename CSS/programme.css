@@ -3,7 +3,8 @@
 }
 
 table {
-    width: 100%;
+    margin: auto;
+    width: 80%;
 }
 
 table,th,td {

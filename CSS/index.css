@@ -59,6 +59,12 @@
     height: 600px;
     margin: 10rem;
     margin-inline: 20rem;
+    overflow: hidden;
+    border: #212121 solid thin;
+}
+
+.tentangImg img {
+    width: 100%;
 }
 
 .tentangText{
