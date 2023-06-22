@@ -57,13 +57,13 @@
     width: 600px;
     height: 400px;
     margin: 10rem;
-    margin-inline: 10rem;
+    margin-inline: 15rem;
     overflow: hidden;
     border: #212121 solid thin;
 }
 
 .tentangImg img {
-    width: 100%;
+    width: 200%;
 }
 
 .tentangText{
