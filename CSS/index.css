@@ -54,8 +54,8 @@
 }
 
 .tentangImg{
-    width: 858px;
-    height: 624px;
+    width: 700px;
+    height: 520px;
     margin: 8rem;
     margin-inline: 20rem;
     overflow: hidden;
@@ -63,7 +63,7 @@
 }
 
 .tentangImg img {
-    width: 120%;
+    width: 100%;
 }
 
 .tentangText{
@@ -71,9 +71,9 @@
     background-color: #2947A9;
     color: aliceblue;
     width: 350px;
-    height: 450px;
-    margin-inline: 55rem;
-    margin-top: -35rem;
+    height: 500px;
+    margin-inline: 60rem;
+    margin-top: -42rem;
     padding: 2rem;
 }
 
