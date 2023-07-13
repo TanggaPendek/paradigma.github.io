@@ -55,7 +55,7 @@
 
 .tentangImg{
     width: 700px;
-    height: 520px;
+    height: 480px;
     margin: 8rem;
     margin-inline: 17rem;
     overflow: hidden;
@@ -63,7 +63,7 @@
 }
 
 .tentangImg img {
-    width: 100%;
+    width: 125%;
 }
 
 .tentangText{
