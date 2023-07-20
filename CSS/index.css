@@ -179,7 +179,8 @@
 
 
 .buttonReadMore {
-    color: rgb(48, 48, 48);
+    background-color: #2947A9;
+    color: rgb(255, 255, 255);
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -192,8 +193,10 @@
 }
 
 .buttonReadMore:hover {
-    color: rgb(255, 255, 255);
-    background-color: #2947A9;
+    background-color: #ffffff;
+    color: rgb(48, 48, 48);
+    
+    
     
 }
 
