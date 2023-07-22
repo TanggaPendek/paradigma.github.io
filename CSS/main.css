@@ -45,8 +45,10 @@ a {
     display: none;
 }
 
-
-
 .ease {
     transition: all 0.5s ease;
+}
+
+.linkTajaan:hover{
+    color: rgb(255, 136, 0);
 }

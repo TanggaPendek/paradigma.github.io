@@ -18,5 +18,12 @@
 }
 
 .links a {
+    color: #252525;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-inline: 2vw;
 }
+
+.links a:hover{
+    color: rgb(255, 136, 0);
+}
+
