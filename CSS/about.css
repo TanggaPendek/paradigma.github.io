@@ -71,22 +71,4 @@
     }
   }
 
-    .buttonApply {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 18px;
-        color: white;
-        background-color: #252525;
-        text-align: center;
-        cursor: pointer;
-        width: 30%;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-
-    .buttonApply:hover {
-        background-color: #555;
-    }
+  
